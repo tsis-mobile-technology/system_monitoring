@@ -1,0 +1,10 @@
+# Logs and Cache
+system_monitor.log
+.last_known_ip
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Secret
+.env
