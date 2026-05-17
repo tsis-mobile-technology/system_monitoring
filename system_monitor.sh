@@ -7,7 +7,7 @@
 # =================================================================
 
 # 0. 변수 설정
-EMAIL="gainworld@gmail.com"
+EMAIL="USER_EMAIL@gmail.com"
 SCRIPT_PATH="$(readlink -f "$0")"
 # $HOME 변수는 sudo로 실행 시 /root로 바뀔 수 있으므로 명시적 경로 권장
 # 하지만 사용자 디렉토리에 캐시를 유지하고 싶다면 고정 경로를 사용
