@@ -7,8 +7,8 @@ def send_email(subject, body, to_email):
     # --- 설정 ---
     # Gmail 계정과 앱 비밀번호를 여기에 입력하세요.
     # 주의: 일반 비밀번호가 아닌 '앱 비밀번호'를 사용해야 합니다.
-    gmail_user = 'USER_EMAIL@gmail.com'
-    gmail_password = 'your_app_password_here'  # <--- 여기에 앱 비밀번호를 입력하세요. (보안을 위해 로컬에서만 유지하세요)
+    gmail_user = 'USERMAIL@gmail.com'
+    gmail_password = 'APP_PASSWORD'  # <--- 여기에 앱 비밀번호를 입력하세요. (보안을 위해 로컬에서만 유지하세요)
     # -----------
 
     msg = MIMEText(body, 'plain', 'utf-8')
